@@ -1,6 +1,7 @@
 # Privacy and Personal Data Protection Policy
 
 **Effective Date:** 12.06.2026
+
 **🇹🇷 [Click here for the Turkish version of this text.](https://github.com/Splash5756/KebapBot-PrivacyPolicy/blob/main/PrivacyPolicy-TR.md)**
 
 The Kebap Discord Bot Data Privacy Policy (**“KEBAP BOT”**) regulates the terms and conditions for the collection, processing, and storage of personal data obtained during the use of the services offered by the developer team, in accordance with the **Law No. 6698 on the Protection of Personal Data (“KVKK”)** and the **Discord Developer Terms of Service**.
