@@ -2,11 +2,11 @@
 
 **Effective Date:** 12.06.2026
 
-**🇹🇷 [Click here for the Turkish version of this text.](https://github.com/Splash5756/KebapBot-PrivacyPolicy/blob/main/PrivacyPolicy-TR.md)**
+**🇹🇷 [Click here for the Turkish version of this text.**](https://github.com/Splash5756/KebapBot-PrivacyPolicy/blob/main/PrivacyPolicy-TR.md)
 
 The Kebap Discord Bot Data Privacy Policy (**“KEBAP BOT”**) regulates the terms and conditions for the collection, processing, and storage of personal data obtained during the use of the services offered by the developer team, in accordance with the **Law No. 6698 on the Protection of Personal Data (“KVKK”)** and the **Discord Developer Terms of Service**.
 
-All server members on the Discord platform who are present in the Kebap server (**“User”**) shall be deemed to have read and accepted this policy.
+All users on the Discord platform who are present on a server where Kebap Bot is active, or who benefit from the services of the bot (**“User”**), shall be deemed to have read and accepted this policy.
 
 ---
 
@@ -43,6 +43,12 @@ For the purpose of cybersecurity analysis, message contents may be transmitted t
 
 ---
 
-### 5. Governing Language
+### 5. Amendments to the Policy
+
+The Kebap Bot developer team reserves the right to **unilaterally update or modify this Privacy Policy at any time without prior notice to the users**, in order to reflect changes in data processing activities or to comply with legal regulations. Any amendments shall become effective immediately upon the publication of the revised policy at this link. Continuous use of Kebap Bot services by the User constitutes acceptance of the amended privacy terms.
+
+---
+
+### 6. Governing Language
 
 This Privacy Policy has been translated from the [original Turkish text](https://github.com/Splash5756/KebapBot-PrivacyPolicy/blob/main/PrivacyPolicy-TR.md). In the event of any discrepancy, ambiguity, or conflict between the Turkish version and this English translation, the Turkish text shall prevail and be legally binding.
