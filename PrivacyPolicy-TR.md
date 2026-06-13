@@ -2,9 +2,11 @@
 
 **Yürürlük Tarihi:** 12.06.2026
 
+🇺🇸 **[Click here for the English version of this text.](https://www.google.com/search?q=https://github.com/Splash5756/KebapBot-PrivacyPolicy/blob/main/README.md)**
+
 Kebap Discord Botu Veri Gizlilik Politikası (**“KEBAP BOT”**); geliştirici ekibi tarafından sunulan hizmetlerin kullanımı sırasında elde edilen kişisel verilerin toplanma, işlenme ve saklanma şartlarını; **6698 sayılı Kişisel Verilerin Korunması Kanunu (“KVKK”)** ve **Discord Geliştirici Hizmet Şartları** uyarınca düzenlemektedir.
 
-Discord platformunda, Kebap sunucusunda bulunan tüm sunucu üyeleri (**“Kullanıcı”**), bu politikayı okumuş ve kabul etmiş sayılır.
+Discord platformunda, Kebap Bot'un aktif olduğu bir sunucuda bulunan veya botun hizmetlerinden yararlanan tüm kullanıcılar (**“Kullanıcı”**), bu politikayı okumuş ve kabul etmiş sayılır.
 
 ---
 
@@ -38,3 +40,9 @@ Toplanan veriler, **KVKK Madde 5/2(c)** *"Bir sözleşmenin kurulması veya ifas
 Kullanıcı verileri, Kebap Bot tarafından hiçbir şekilde ticari amaçlarla kullanılmaz, satılmaz veya reklam ajanslarıyla paylaşılmaz.
 
 Siber güvenlik analizi amacıyla mesaj içerikleri, güvenli ve izole bir API/CLI köprüsü üzerinden analiz motorlarına ([Gemini](https://gemini.google.com/) ve [Gemini CLI](https://geminicli.com/)) iletilebilir. Ancak bu veriler, hizmet sağlayıcıların gizlilik sözleşmeleri ([Google Gizlilik Politikası](https://policies.google.com/privacy) ve [Gemini Gizlilik Bildirimi](https://developers.google.com/gemini-code-assist/resources/privacy-notices)) ile güvence altına alınmıştır.
+
+---
+
+### 5. Politikada Yapılacak Değişiklikler
+
+Kebap Bot geliştirici ekibi, veri işleme süreçlerindeki değişiklikler veya yasal mevzuata uyum amacıyla bu Gizlilik Politikası’nı **kullanıcılara önceden haber vermeksizin dilediği zaman tek taraflı olarak güncelleme hakkını saklı tutar.** Yapılan güncellemeler, yeni politikanın bu adreste yayınlandığı tarihten itibaren geçerlilik kazanır. Kullanıcıların Kebap Bot hizmetlerini kullanmaya devam etmesi, güncellenen gizlilik şartlarını kabul ettikleri anlamına gelir. En güncel politikayı takip etme sorumluluğu Kullanıcıya aittir.
