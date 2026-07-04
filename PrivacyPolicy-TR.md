@@ -30,12 +30,21 @@ Toplanan veriler, **KVKK Madde 5/2(c)** *"Bir sözleşmenin kurulması veya ifas
 
 ### 3. Verilerin Saklanma Süresi ve İmha Politikası
 
-* **Geçici Veriler (Mesajlar ve Görseller):** Oltalama/Dolandırıcılık analizi için işlenen mesaj metinleri ve indirilen medya dosyaları, yapay zeka analiz işlemi tamamlandıktan hemen sonra Kebap Bot sunucusundan kalıcı olarak imha edilir. Bu veriler hiçbir koşulda Kebap Bot veritabanında saklanmaz.
+* **Geçici Veriler (Mesajlar ve Görseller):** AntiBot (Honeypot) sistemine takılmayan ve yalnızca rutin oltalama/dolandırıcılık analizi için işlenen mesaj metinleri ve indirilen medya dosyaları, yapay zeka analiz işlemi tamamlandıktan hemen sonra Kebap Bot sunucusundan kalıcı olarak imha edilir. Bu geçici veriler hiçbir koşulda Kebap Bot veritabanında saklanmaz.
+* **AntiBot Telemetri Verileri (Kalıcı):** Sunucu yöneticileri tarafından "Tuzak Kanal" olarak belirlenen kanallara gönderilen şüpheli mesaj içerikleri, ekli dosyalar (byte/hex formatında analiz edilerek), gönderim zamanı ve kullanıcının Discord ID'si, güvenlik analizi ve AntiBot sisteminin geliştirilmesi amacıyla süresiz olarak saklanmaktadır.
 * **Kalıcı Veriler:** Kebap Bot aracılığı ile açılan destek biletleri (*ticket*) kanallarında yazılan mesajlar ve mesaj sahibi kullanıcıların herkese açık bilgileri; sunucu üzerinden yürütülen ticari reklam ve işbirliği süreçlerinde taraflar arasında mutabık kalınan şartların tespiti; olası cayma, ücret iadesi, itiraz süreçlerinin yönetimi ile vergilendirme ve resmi makamlar nezdinde doğabilecek hukuki yükümlülüklerin ifası amacıyla saklanmaktadır.
 
 ---
 
-### 4. Üçüncü Kişilere Aktarım ve Veri Paylaşımı
+### 4. AntiBot Sistemi ve Telemetri Verileri
+
+Kebap Bot, sunucuları spam saldırılarından ve ele geçirilmiş self-bot hesaplardan korumak amacıyla bir "AntiBot" sistemi sunar. 
+* Eğer bir kullanıcı, sunucu yöneticileri tarafından "Tuzak Kanal" olarak belirlenmiş (ve normal kullanıcıların erişmemesi/yazmaması gereken) bir kanala mesaj gönderirse, bu işlem şüpheli aktivite olarak değerlendirilir.
+* Bu durumda elde edilen telemetri verileri yalnızca siber güvenlik amaçlı kullanılır. Toplanan verilerinizin incelenmesi veya silinmesi talebi için Kebap Bot yetkilileriyle iletişime geçebilirsiniz.
+
+---
+
+### 5. Üçüncü Kişilere Aktarım ve Veri Paylaşımı
 
 Kullanıcı verileri, Kebap Bot tarafından hiçbir şekilde ticari amaçlarla kullanılmaz, satılmaz veya reklam ajanslarıyla paylaşılmaz.
 
@@ -43,6 +52,6 @@ Siber güvenlik analizi amacıyla mesaj içerikleri, güvenli ve izole bir API/C
 
 ---
 
-### 5. Politikada Yapılacak Değişiklikler
+### 6. Politikada Yapılacak Değişiklikler
 
 Kebap Bot geliştirici ekibi, veri işleme süreçlerindeki değişiklikler veya yasal mevzuata uyum amacıyla bu Gizlilik Politikası’nı **kullanıcılara önceden haber vermeksizin dilediği zaman tek taraflı olarak güncelleme hakkını saklı tutar.** Yapılan güncellemeler, yeni politikanın bu adreste yayınlandığı tarihten itibaren geçerlilik kazanır. Kullanıcıların Kebap Bot hizmetlerini kullanmaya devam etmesi, güncellenen gizlilik şartlarını kabul ettikleri anlamına gelir. En güncel politikayı takip etme sorumluluğu Kullanıcıya aittir.
