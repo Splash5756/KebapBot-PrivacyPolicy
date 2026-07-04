@@ -30,12 +30,21 @@ The collected data is processed based on the legal grounds of **Article 5/2(c) o
 
 ### 3. Data Retention Period and Destruction Policy
 
-* **Temporary Data (Messages and Images):** Message texts and downloaded media files processed for phishing/fraud analysis are permanently destroyed from the Kebap Bot server immediately after the artificial intelligence analysis process is completed. This data is under no circumstances stored in the Kebap Bot database.
+* **Temporary Data (Messages and Images):** Excluding the telemetry data caught by the AntiBot (Honeypot) system, message texts and downloaded media files processed for routine phishing/fraud analysis are permanently destroyed from the Kebap Bot server immediately after the artificial intelligence analysis process is completed. This temporary data is under no circumstances stored in the Kebap Bot database.
+* **AntiBot Telemetry Data (Permanent):** Suspicious message contents, attached files (analyzed in byte/hex format), timestamps, and user Discord IDs sent to channels designated as "Honeypot Channels" by server administrators are stored indefinitely for security analysis and AntiBot system development.
 * **Permanent Data:** Messages written in support ticket channels opened through Kebap Bot and the publicly available information of the users who own the messages are stored for the purposes of; determining the terms agreed upon between the parties in commercial advertising and cooperation processes carried out over the server; managing potential withdrawal, refund, and objection processes; and fulfilling legal obligations that may arise before taxation and official authorities.
 
 ---
 
-### 4. Transfer to Third Parties and Data Sharing
+### 4. AntiBot System and Telemetry Data
+
+Kebap Bot provides an "AntiBot" system to protect servers from spam attacks and compromised self-bot accounts.
+* If a user sends a message to a channel designated as a "Honeypot Channel" by server administrators (which normal users should not access or write in), this action is considered suspicious activity.
+* The telemetry data obtained in this case is strictly used for cybersecurity purposes. You can contact Kebap Bot administrators to request a review or deletion of your collected data.
+
+---
+
+### 5. Transfer to Third Parties and Data Sharing
 
 User data is under no circumstances used for commercial purposes, sold, or shared with advertising agencies by Kebap Bot.
 
@@ -43,12 +52,12 @@ For the purpose of cybersecurity analysis, message contents may be transmitted t
 
 ---
 
-### 5. Amendments to the Policy
+### 6. Amendments to the Policy
 
 The Kebap Bot developer team reserves the right to **unilaterally update or modify this Privacy Policy at any time without prior notice to the users**, in order to reflect changes in data processing activities or to comply with legal regulations. Any amendments shall become effective immediately upon the publication of the revised policy at this link. Continuous use of Kebap Bot services by the User constitutes acceptance of the amended privacy terms.
 
 ---
 
-### 6. Governing Language
+### 7. Governing Language
 
 This Privacy Policy has been translated from the [original Turkish text](https://github.com/Splash5756/KebapBot-PrivacyPolicy/blob/main/PrivacyPolicy-TR.md). In the event of any discrepancy, ambiguity, or conflict between the Turkish version and this English translation, the Turkish text shall prevail and be legally binding.
